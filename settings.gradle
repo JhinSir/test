@@ -1,1 +1,2 @@
-include ':app', ':library', ':widget',':Bcore',':xposed'
+include  ':library', ':widget',':Bcore',':xposed'
+include ':app_two'

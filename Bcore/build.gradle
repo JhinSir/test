@@ -43,11 +43,11 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar","*.aar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
 
-    //implementation 'me.weishu:free_reflection:3.0.1'
-    //implementation project(':xposed')
-    //implementation 'com.swift.sandhook:hooklib:4.2.0'
-
-    embed(name: 'free', ext: 'aar'){ transitive = true}
-    embed(name: 'hooklib-4.2.0', ext: 'aar'){ transitive = true}
-    embed(name: 'xposed', ext: 'aar'){ transitive = true}
+    implementation 'me.weishu:free_reflection:3.0.1'
+    implementation project(':xposed')
+    implementation 'com.swift.sandhook:hooklib:4.2.0'
+//
+//    embed(name: 'free', ext: 'aar'){ transitive = true}
+//    embed(name: 'hooklib-4.2.0', ext: 'aar'){ transitive = true}
+//    embed(name: 'xposed', ext: 'aar'){ transitive = true}
 }
